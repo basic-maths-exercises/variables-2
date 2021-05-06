@@ -12,4 +12,4 @@ from main import *
 
 class UnitTests(unittest.TestCase) :
     def test_output(self) : 
-       assert( vc.check_output("exponents \\nmultiplication \\naddition") )
+       assert( vc.check_output("exponents\\nmultiplication\\naddition") )
